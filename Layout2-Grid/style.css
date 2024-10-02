@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+}
+.container-header {
+  display: grid;
+  justify-items: center;
+  background: rgb(240, 239, 245);
+  border-radius: 5px;
+}
+h1 {
+  font-size: 20px;
+}
+.container-navbar {
+  display: grid;
+  justify-items: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: rgb(240, 239, 245);
+}
+.resaltado {
+  background-color: #ffff00;
+}
+.main-content {
+  display: grid;
+  justify-items: center;
+  margin-top: 5px;
+  background: rgb(240, 239, 245);
+  border-radius: 5px;
+}
+.container-section {
+  display: grid;
+  grid-template-areas: " sideA lorem";
+  gap: 3px;
+}
+.container-section2 {
+  display: grid;
+  grid-template-areas: " lorem2 sideA2 ";
+  gap: 3px;
+  margin-top: 3px;
+}
+.container-section3 {
+  display: grid;
+  grid-template-areas: " sideA3 lorem3";
+  gap: 3px;
+  margin-top: 3px;
+}
+.container-section .article-sideA {
+  grid-area: sideA;
+}
+.container-section .article-lorem {
+  grid-area: lorem;
+}
+.container-section2 .article-sideA2 {
+  grid-area: sideA2;
+}
+.container-section2 .article-lorem2 {
+  grid-area: lorem2;
+}
+.container-section3 .article-sideA3 {
+  grid-area: sideA3;
+}
+.container-section3 .article-lorem3 {
+  grid-area: lorem3;
+}
+.article-sideA {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(228, 203, 201);
+}
+.text-content-sideA {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: rgb(221, 221, 221);
+  border-radius: 5px;
+  width: 140px;
+  height: 90px;
+}
+.title-lorem {
+  font-size: 15px;
+}
+.article-lorem {
+  background: rgb(228, 203, 201);
+  border-radius: 5px;
+}
+.paragraph-lorem {
+  font-size: 13px;
+}
+.article-sideA2 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(228, 203, 201);
+}
+.text-content-sideA2 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: rgb(221, 221, 221);
+  border-radius: 5px;
+  width: 140px;
+  height: 90px;
+}
+.article-lorem2 {
+  display: grid;
+  border-radius: 5px;
+  font-size: 15px;
+  background: rgb(228, 203, 201);
+  padding: 6px;
+}
+
+.article-sideA3 {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(228, 203, 201);
+}
+
+.text-content-sideA3 {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background: rgb(221, 221, 221);
+  border-radius: 5px;
+  width: 140px;
+  height: 90px;
+}
+.article-lorem3 {
+  display: grid;
+  border-radius: 5px;
+  font-size: 15px;
+  background: rgb(228, 203, 201);
+  padding: 6px;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  background: rgb(240, 239, 245);
+}

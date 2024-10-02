@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.container-header {
+  display: flex;
+  justify-content: center;
+  background: rgb(240, 239, 245);
+  border-radius: 5px;
+}
+h1 {
+  font-size: 20px;
+}
+.container-navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: rgb(240, 239, 245);
+}
+.resaltado {
+  background-color: #ffff00;
+}
+.main-content {
+  background: rgb(240, 239, 245);
+  border-radius: 5px;
+}
+.title-article {
+  font-size: 20px;
+}
+.container-title {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.container-section {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  gap: 2px;
+}
+.container-section-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 10px;
+  border-radius: 5px;
+  gap: 2px;
+}
+
+.text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+  width: 100px;
+  height: 130px;
+  background: rgb(221, 221, 221);
+}
+.content-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 200px;
+  background: rgb(228, 203, 201);
+  border-radius: 5px;
+}
+.article-lorem {
+  border-radius: 5px;
+  font-size: 15px;
+  background: rgb(228, 203, 201);
+  padding: 6px;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  background: rgb(240, 239, 245);
+}

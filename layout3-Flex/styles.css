@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 500px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  background: rgb(230, 230, 237);
+}
+.logo-icon {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.text-logo-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 60px;
+  height: 30px;
+  background: rgb(217, 215, 215);
+  opacity: 0.6;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.text-sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: 50px;
+  height: 20px;
+  background: rgb(217, 215, 215);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  height: 68px;
+  background: rgb(230, 230, 237);
+}
+.resaltado {
+  background-color: yellow;
+}
+.content-main {
+  background: rgb(230, 230, 237);
+  margin-top: 5px;
+  padding: 10px;
+}
+.container-one-third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-one-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  height: 41px;
+  border-radius: 5px;
+  background: rgb(192, 324, 206);
+}
+.container-side {
+  display: flex;
+  gap: 0.4px;
+  margin-top: 10px;
+}
+.article-sideA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 68px;
+  background: rgb(228, 203, 201);
+  border-radius: 5px;
+}
+.text-sideA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(221, 221, 221);
+  width: 126px;
+  height: 42px;
+}
+.article-sideB {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 68px;
+  background: rgb(228, 203, 201);
+  border-radius: 5px;
+}
+.text-sideB {
+  font-size: 12px;
+}
+.container-side2 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.4px;
+  margin-top: 10px;
+}
+.container-side-to-side {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  background: rgb(176, 177, 224);
+  height: 68px;
+  border-radius: 5px;
+}
+.article-side-to-side {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.container-one-half {
+  display: flex;
+  margin-top: 5px;
+  gap: 0.4px;
+}
+.article-one-half {
+  display: flex;
+  background: rgb(226, 193, 223);
+  justify-content: center;
+  align-items: center;
+  width: 237px;
+  height: 68px;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  background: rgb(230, 230, 237);
+  height: 68px;
+}
